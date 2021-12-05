@@ -1,0 +1,103 @@
+.Localvideo{
+	position: relative;
+	top:150px;
+	left:700px;
+	width: 320px;
+	height: 180px;
+}
+
+.Localvideo video {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.Remotevideo{
+	position: relative;
+	width: 480px;
+	bottom:120px;
+	left:320px;
+	height: 270px;
+}
+
+.Remotevideo video {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+.volume_bar {
+	position: absolute;
+	width: 5px;
+	height: 0px;
+	right: 0px;
+	bottom: 0px;
+	background-color: #12acef;
+}
+
+#message_text {
+	position: absolute;
+	overflow:auto;
+	right: 0.5%;
+	left: 0.5%;
+	top: 2px;
+	bottom: 20%;
+	white-space: pre-line;
+	font-size: 22.5px;
+	border-style: solid;
+	border-width: 2px;
+}
+
+#text_div {
+	position: absolute;
+	right: 1.5%;
+	top: 1.5%;
+	bottom: 1.5%;
+	width: 13.5%;
+	text-align: left;
+	vertical-align: top;
+	border-style: double;
+	border-width: 5px;
+	display: none;
+}
+
+#message_form{
+}
+
+#sendButton {
+	position: absolute;
+	left: 5%;
+	width: 90%;
+	height: 5%;
+	bottom: 14.5%;
+}
+
+#userNameLabel {
+	position: absolute;
+	left: 5%;
+	width: 90%;
+	bottom: 10%;
+}
+
+#userName {
+	position: absolute;
+	left: 5%;
+	width: 90%;
+	bottom: 7.5%;
+}
+
+#userMessageLabel {
+	position: absolute;
+	left: 5%;
+	width: 90%;
+	bottom: 4%;
+}
+
+#userMessage {
+	position: absolute;
+	left: 5%;
+	width: 90%;
+	bottom: 1.5%;
+}
